@@ -54,7 +54,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ../lambda/fetch_configuration/build
-      FunctionName: fecth-configuration
+      FunctionName: fetch-configuration
       Runtime: python3.8
       Policies:
         Statement:
